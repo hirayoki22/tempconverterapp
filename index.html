@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Converter App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset_style.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <div class="website-wrapper">   
+                <h1>Temperature Converter</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="website-wrapper">            
+            <div class="temp-calc-container">
+                <div class="row">
+                    <input type="text" name="unit-input-1" value="0">
+                    <select class="first-select">
+                        <option value="celcius" selected>Celcius</option>
+                        <option value="farenheit">Farenheit</option>
+                        <option value="kelvin">Kelvin</option>        
+                    </select>
+                </div>
+
+                <div class="row">
+                    <input type="text" name="unit-input-2" value="32">
+                    <select class="second-select">
+                        <option value="celcius">Celcius</option>
+                        <option value="farenheit" selected>Farenheit</option>
+                        <option value="kelvin">Kelvin</option>    
+                    </select>
+                </div>
+
+                <div class="formula-container">
+                    <div class="formula-icon">Formula</div>
+                    <div class="formula-output">(0°<strong>C</strong> × 9/5) + 32 = 32°<strong>F</strong></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
